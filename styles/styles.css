@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: rgb(44, 31, 31);
+}
+ 
+body{
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+}
+.background-primary{
+    background:  linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);;
+}
+.btn-primary{
+    width: 92px;
+    height: 38px;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255); 
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 8px 20px 8px 20px;
+  
+}
+.header{
+    border: 2px solid red;
+    width: 1440px;
+    height: 715px;
+}
+#new-font{
+    font-family: 'Miama', sans-serif;
+                                                
+}
+/* navbar related styles  starts*/
+
+ .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid yellow;
+    margin: 57px 190px 0px;
+ }
+ .nav-tittle{
+    width: 132px;
+    height: 43px;
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    gap: 10px;
+}
+ .nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 47px;
+ }
+ 
+ .nav-item{
+   list-style: none;
+   margin: 12px 0px;
+ }
+ .nav-link{
+    text-decoration: none;
+    width: 64px;
+    height: 22px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 4px;
+    
+ }
+ /* navbar styles end  */
+
+ /* banner related styles start  */
+ .banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid blue;
+    margin: 0px 214px 0px 190px ;
+
+ }
+ .banner-tittle{
+    width: 520px;
+    height: 282px;
+    color: rgb(255, 255, 255);
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+ }
+ .banner-content{
+    width: 520px;
+   height: 48px;
+   color: rgba(255, 255, 255, 0.5);
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   letter-spacing: 0.5px;
+   text-align: left;
+   margin: 28px 0px;
+ }
+ .first-banner-button{
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 16px 40px 16px 40px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    justify-content: center;
+    margin-top: 10px;
+ }
+ .second-banner-button{
+    width: 224px;
+    height: 54px;
+    background: black;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    padding: 16px 40px 16px 40px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+ }
+ .image-section {
+    width: 349px;
+    height: 580px;
+    left: 877px;
+    top: 135px;
+    border: 3px solid red;
+ }
+ 
+ /* banner related styles end  */
+ /* main related works start */
+ /* first section  starts*/
+ .changing-habits{
+    margin: 100px 198px;
+    border: 3px solid yellow;
+    width: 1044px;
+    height: 452px;
+ }
+ 
+ .habit-tittle{
+    width: 476px;
+    height: 58px;
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0px 284px 14px;
+ }
+ .habit-paragraph{
+    width: 671px;
+    height: 48px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin:0px 187px 50px;
+ }
+ .image-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr)
+ }
+ .gym-image{
+   border: 3px solid goldenrod;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ .gym-image img{
+    border-radius: 50%;
+ }
+ .gym-image-tittle{
+    width: auto;
+   height: 22px;
+   gap: 6;
+   color: rgb(255, 255, 255);
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 120%;
+   letter-spacing: 0%;
+   text-align: center;
+   margin: 30px 15px 6px 15px ;
+ }
+ .gym-image-paragraph{
+    width: 231px;
+    height: 36px;
+    gap: 6;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+   font-weight: 400;
+   line-height: 18px;
+   letter-spacing: 0.3px;
+   text-align: center;
+ }
+  
+ /* first section end  */
+ /* second section start  */
+  .run-extra{
+    display: flex;
+    align-items: center;
+    width: 1060px;
+    height: 371px;
+    margin: 100px 190px;
+  }
+  
+  .run-extra-image img{
+    width: 100%;
+    height: auto;
+  }
+ 
+  .run-extra-tittle{
+    width: 443px;
+    height: 116px;
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .run-extra-content{
+    width: 443px;
+    height: 72px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .run-extra-btn{
+    width: 224px;
+    height: 54px;
+    padding: 16px 40px 16px 65px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  /* run extra section end  */
+   /* meet team section start  */
+   .meet-team{
+   max-width: 1060px;
+    height: 782px;
+    margin: 100px 190px;
+    border: 2px solid red;
+   }
+   .meet-team-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 195px 78px;
+   }
+   .meet-team-tittle{
+    width: 364px;
+    height: 58px;
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+   }
+   .meet-team-paragraph{
+    width: 671px;
+    height: 48px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+   }
+   .container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 1060px;
+    margin: 0 auto;
+    gap: 10px;
+   }
+   .image-content{
+    position: relative;
+   }
+   .image-content img{
+    width: 100%;
+    height: 270px;
+    border-radius: 18px;
+    background: rgba(0, 0, 0, 0.2),url(image);
+   }
+  .meet-tittle{
+    position: absolute;
+    color: aliceblue;
+    top: 200px;
+    
+  }
+  .meet-paragraph{
+    position: absolute;
+    color: white;
+    top: 240px;
+  }
+  /* meet-team section end here  */
+  .last-section{
+    width: 1440px;
+    height: 489px;
+    background: rgba(34, 28, 28, 0.1);
+    margin: 88px 0px;
+  }
+  .footer-container{
+   
+    width: 1059px;
+    height: 300px;
+    margin: 66px 190px 174px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    
+    border: 2px solid red;
+  }
+  .fitness-section{
+    width: 443px;
+    height: 176px;
+    gap: 20;
+  }
+  .fitness-tittle{
+    width: 276px;
+    height: 84px;
+    gap: 20;
+    color: rgb(230, 83, 60);
+font-size: 70px;
+font-weight: 800;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+  }
+  .fitness-paragraph{
+    width: 443px;
+    height: 72px;
+    gap: 20;
+    color: rgba(255, 255, 255, 0.5);
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left;
+  }
+  .get-started-one{
+    width: 200px;
+    height: 249px;
+    
+  }
+  .tittle{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .listing-items{
+    width: 82px;
+height: 28px;
+color: rgba(255, 255, 255, 0.5);
+font-size: 23px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+gap: 10;
+list-style: none;
+  }
+  .copyright{
+    width: 318px;
+height: 24px;
+left: 558px;
+top: 430px;
+color: rgba(255, 255, 255, 0.5);
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: center;
+margin-left: 500px;
+  }
