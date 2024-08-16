@@ -30,7 +30,6 @@ body{
   
 }
 .header{
-    border: 2px solid red;
     width: 1440px;
     height: 715px;
 }
@@ -44,7 +43,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid yellow;
     margin: 57px 190px 0px;
  }
  .nav-tittle{
@@ -91,7 +89,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid blue;
     margin: 0px 214px 0px 190px ;
 
  }
@@ -151,7 +148,6 @@ body{
     height: 580px;
     left: 877px;
     top: 135px;
-    border: 3px solid red;
  }
  .image-section img{
   position: relative;
@@ -210,7 +206,6 @@ background: rgba(48, 48, 48, 0.54);
  /* first section  starts*/
  .changing-habits{
     margin: 100px 198px;
-    border: 3px solid yellow;
     width: 1044px;
     height: 452px;
  }
@@ -242,7 +237,7 @@ background: rgba(48, 48, 48, 0.54);
     grid-template-columns: repeat(4,1fr)
  }
  .gym-image{
-   border: 3px solid goldenrod;
+   
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -330,7 +325,6 @@ background: rgba(48, 48, 48, 0.54);
    max-width: 1060px;
     height: 782px;
     margin: 100px 190px;
-    border: 2px solid red;
    }
    .meet-team-content{
     display: flex;
@@ -391,13 +385,11 @@ background: rgba(48, 48, 48, 0.54);
       max-width: 1440px;
       height: 487px;
       background: rgb(34, 34, 34);
-      
     }
     .content-container{
       width: 671px;
       height: 120px;
-      border: 2px solid red;
-      margin: 40px 385px;
+      margin: 0px 385px 20px;
     }
  .calculator-heading{
   width: 353px;
@@ -431,7 +423,6 @@ text-align: left;
 
  }
  .calculate{
-  border: 3px solid red;
     display: flex;
       justify-content: space-evenly;
       align-items: center;
@@ -478,7 +469,7 @@ letter-spacing: 0.3px;
 text-align: left;
  }
  .form{
-  margin-top: 34px;
+  margin-top: 20px;
   /* background:white; */
   gap: 2px; 
  }
@@ -518,6 +509,93 @@ border-radius: 42px;
 background: rgb(230, 83, 60);
 margin: 10px  20px;
  }
+  /* Bmi related styles end here  */
+/* unique section related styles here  */
+.pricing-container{
+  max-width: 1440px;
+  height: auto;
+  
+}
+.pricing-tittle{
+  color: rgb(255, 255, 255);
+ font-size: 48px;
+ font-weight: 900;
+ line-height: 120%;
+ letter-spacing: 0%;
+ text-align: left;
+ margin-top: 20px;
+ background: grey;
+ height: 200px;
+ padding: 70px 380px;
+}
+.choose{
+  color: rgb(255, 255, 255);
+font-size: 48px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+margin: 30px 350px;
+}
+.pricing-list{
+  display: flex;
+  justify-content: space-evenly;
+}
+.one{
+  border-radius: 10px ;
+  border: 2px solid rgb(18, 227, 235);
+}
+
+.one-paragraph{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 33px;
+  font-weight: 400;
+  line-height: 280%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 10px;
+  text-align: left;
+  margin-left: 30px;
+}
+.one-tittle{
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 0px;
+  text-align: left;
+margin-left: 50px;
+}
+.one-paragraph-two{
+  color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 500;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 100px;
+}
+.one-paragraph-three{
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: left;
+  margin: 20px;
+}
+.one-paragraph-button{
+  width: 224px;
+height: 54px;
+padding: 16px 40px 16px 40px;
+  border-radius: 42px;
+background: rgb(157, 237, 252);
+margin-left: 20px;
+margin-bottom: 10px;
+}
 
   /* footer related works  */
   .last-section{
@@ -535,7 +613,7 @@ margin: 10px  20px;
     justify-content: center;
     gap: 100px;
     
-    border: 2px solid red;
+   
   }
   .fitness-section{
     width: 443px;
@@ -578,7 +656,6 @@ text-align: left;
     text-align: left;
     width: 181px;
    height: 38px;
-   border: 1px solid yellow;
    margin-bottom: 39px;
   }
   .listing-items{
