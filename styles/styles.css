@@ -685,3 +685,27 @@ letter-spacing: 0.3px;
 text-align: center;
 margin-left: 500px;
   }
+   
+  @media screen and (max-width: 576px) {
+     body{
+      margin: 0 auto;
+     }
+    .navbar{
+     flex-direction: column;
+      margin: 0 auto;
+     
+    }
+    .nav-links
+    {
+      flex-direction: coloum;
+      display: none;
+    }
+    .banner-container{
+      flex-direction: column;
+      margin: 0px;
+    }
+    .image-container{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+    }
+  }
